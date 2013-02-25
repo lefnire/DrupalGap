@@ -29,6 +29,6 @@ $('#drupalgap_users').on('pageshow', function(){
 	}
 });
 
-$('.user_list_item').live('click', function(){
+$('.user_list_item').on('click', function(){
 	drupalgap.account.uid = $(this).attr('uid');
 });

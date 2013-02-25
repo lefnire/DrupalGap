@@ -52,7 +52,7 @@ $('#drupalgap_dashboard').on('pageshow', function(){
 	});
 });
 
-$('#dashboard_content_list a').live('click',function(){
+$('#dashboard_content_list a').on('click',function(){
 	drupalgap.node = {'nid':$(this).attr('id')};
 });
 

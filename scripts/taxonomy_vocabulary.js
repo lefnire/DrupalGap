@@ -44,7 +44,7 @@ $('#taxonomy_vocabulary_edit').on('click', function(){
 	drupalgap.taxonomy_vocabulary_edit.vid = drupalgap.taxonomy_vocabulary.vid;
 });
 
-$('#taxonomy_vocabulary_tree a').live('click', function(){
+$('#taxonomy_vocabulary_tree a').on('click', function(){
 	drupalgap.taxonomy_term.tid = $(this).attr('tid');
 });
 

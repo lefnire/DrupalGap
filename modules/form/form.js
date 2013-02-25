@@ -169,7 +169,7 @@ function _drupalgap_form_validate(form, form_state) {
 /**
  * Handles a drupalgap form's submit button click.
  */
-$('.drupalgap_form_submit').live('click', function(){
+$('.drupalgap_form_submit').on('click', function(){
     
     // Assemble the form state values.
     drupalgap_form_state_values_assemble(drupalgap.form);

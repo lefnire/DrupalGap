@@ -37,7 +37,7 @@ $('#taxonomy_term_edit').on('click', function(){
 	drupalgap.taxonomy_term_edit = drupalgap.taxonomy_term;
 });
 
-$('#taxonomy_term_nodes li a').live('click', function(){
+$('#taxonomy_term_nodes li a').on('click', function(){
 	drupalgap.node.nid = $(this).attr('nid');
 	$.mobile.changePage('node.html');
 	return false;

@@ -27,6 +27,6 @@ $('#drupalgap_page_taxonomy_vocabularies').on('pageshow',function(){
 	}
 });
 
-$('#taxonomy_vocabularies_list a').live('click', function(){
+$('#taxonomy_vocabularies_list a').on('click', function(){
 	drupalgap.taxonomy_vocabulary = {'vid':$(this).attr('vid')};
 });

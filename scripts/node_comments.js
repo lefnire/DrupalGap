@@ -36,6 +36,6 @@ $('#drupalgap_node_comments').on('pageshow',function(){
 });
 
 // 
-$('.node_comment_list_item_edit').live('click', function(){
+$('.node_comment_list_item_edit').on('click', function(){
 	drupalgap.comment_edit.cid = $(this).attr('cid');
 });
